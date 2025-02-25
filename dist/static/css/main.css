@@ -1,0 +1,14 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-image: url(../../b0582d38d5b10969a47d.jpg);
+  background-size: cover;
+}
+.box1 {
+  display: -ms-flexbox;
+  display: flex;
+  width: 200px;
+  height: 200px;
+  background-image: url(../../static/images/9c3554dd85.gif);
+  background-size: cover;
+}

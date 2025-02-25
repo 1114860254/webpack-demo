@@ -1,0 +1,13 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-image: url('../image/Batterymon.jpg');
+  background-size: cover;
+}
+.box1 {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  background-image: url('../image/loading_iphead_96.gif');
+  background-size: cover;
+}
