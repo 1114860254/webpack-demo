@@ -2,6 +2,7 @@ const path = require('path');
 const ESLintPlugin = require('eslint-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 
 // 定义一个名为 getStyleLoader 的函数，接受一个参数 pre
 function getStyleLoader(pre){
@@ -93,7 +94,8 @@ module.exports = {
     }),
     new MiniCssExtractPlugin({
       filename: 'static/css/[name].css',
-    })
+    }),
+    new CssMinimizerPlugin()
   ],
   mode: 'production',
 }
